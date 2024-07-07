@@ -12,13 +12,13 @@ top_line = 100
 
 def guessing_number(number, bottom_line, top_line, attempts=0):
     
-    """It splits search area into 2 parts"""
+    """It splits the search area into 2 parts"""
 
     x = (bottom_line+top_line) // 2
 
-    """It returns guessed number and number of attempts
+    """It returns the guessed number and the number of attempts
     if it's already guessed. Or cuts the search area 
-    untill tne number is guessed."""
+    untill the number is guessed."""
 
     if x == number:
         attempts += 1
